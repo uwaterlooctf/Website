@@ -179,6 +179,7 @@ label::before {
 #previousCTFSExpanded,
 #involvementExpanded,
 #resourcesExpanded,
+#codeofconductExpanded,
 #contactExpanded {
   height: 0px;
   overflow: hidden;
@@ -199,6 +200,7 @@ section {
 #previousCTFS:checked ~ #previousCTFSExpanded,
 #involvement:checked ~ #involvementExpanded,
 #resources:checked ~ #resourcesExpanded,
+#codeofconduct:checked ~ #codeofconductExpanded,
 #contact:checked ~ #contactExpanded {
   height: auto;
   padding-bottom: 50px;
@@ -210,6 +212,7 @@ section {
 #previousCTFS:checked ~ label::before,
 #involvement:checked ~ label::before,
 #resources:checked ~ label::before,
+#codeofconduct:checked ~label::before,
 #contact:checked ~ label::before {
   content: ">";
 }
